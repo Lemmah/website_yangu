@@ -93,7 +93,7 @@ material.purple-indigo.min.css
         <div class="modal-dialog">
           <!-- Modal content-->
           <div class="modal-content">
-            <form role="form" id="myForm" action="https://getsimpleform.com/messages?form_api_token=b5faf8d290b8737cceef9d749b615b22" method="post">
+            <form action="https://getsimpleform.com/messages?form_api_token=b5faf8d290b8737cceef9d749b615b22" method="post">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <h4 class="modal-title">Hello, I will be glad to hear from you!</h4>
@@ -101,15 +101,15 @@ material.purple-indigo.min.css
               <div class="modal-body">
                 <div class="form-group">
                   <label for="sname">Your Name:</label>
-                  <input type="name" class="form-control" id="sname">
+                  <input name="name" type="text" class="form-control" id="sname">
                 </div>
                 <div class="form-group">
                   <label for="semail">Your Email:</label>
-                  <input type="email" class="form-control" id="semail">
+                  <input name="e_address"type="email" class="form-control" id="semail">
                 </div>
                 <div class="form-group">
                   <label for="comment">Your Message:</label>
-                  <textarea class="form-control" rows="5" id="comment"></textarea>
+                  <textarea class="form-control" rows="5" id="comment" name="message"></textarea>
                 </div>
               </div>
               <div class="modal-footer">

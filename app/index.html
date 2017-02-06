@@ -113,7 +113,8 @@ material.purple-indigo.min.css
                 </div>
               </div>
               <div class="modal-footer">
-                <input class="btn btn-success" type="submit" value="Submit">
+		<h6 id="demo"></h6>
+                <input onclick="document.getElementById('demo').innerHTML = 'Message Sent! Thank you!'" class="btn btn-success" type="submit" value="Submit">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Dismiss</button>
               </div>
             </form>
@@ -136,7 +137,7 @@ material.purple-indigo.min.css
               Hello World! This is James Lemayian. A Mathematician and Programmer in the making, an aspiring Data Scientist, a Web Developer, an aspiring mentor and an aspiring father. I am currently based in Kenya, somewhere in Nairobi. Lemayian Online is a collection of things that interest me online organized in a clean little blog alongside my personal website. I am entertained and amused by technology and dedicated to  advancing it when and where I can. Below is a description of me, or you can simply download my resume if that is your kind of thing.
             </div>
             <div class="mdl-card__actions">
-              <a href="#" class="mdl-button">Download Resume</a>
+              <a href="LemayianCV.pdf" class="mdl-button" download>Download Resume</a>
             </div>
           </div>
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">

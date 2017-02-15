@@ -186,7 +186,7 @@ font-family: 'Chewy';
   margin-bottom: 24px;
 }
 .mdl-demo .mdl-layout__tab-panel:not(#overview) {
-  background-color: white;
+  background-color: transparent;
 }
 .mdl-demo #features section {
   margin-bottom: 72px;
@@ -215,4 +215,9 @@ font-family: 'Chewy';
 }
 .mdl-demo .mdl-menu__container {
   z-index: 99;
+}
+
+body {
+  background-image: url("../images/background_image.png");
+  background-repeat: repeat;
 }
